@@ -1,0 +1,204 @@
+//Introduction page
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#intro-background {
+  background-image: url("Images/earth.png"); 
+}
+
+.introduction {
+  background-image: url("Images/earth.png"); 
+}
+
+.intro-container{
+  width: auto;
+  margin: 0 auto;
+  color: #E8FFFB;
+}
+
+.image-logo{
+  width: 10%;
+  height: 10%;
+}
+
+nav{
+  float: right;
+  color: #E8FFFB;
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: 20%;
+  color: #E8FFFB;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 4rem;
+  padding-top: 1.438rem;
+  position: relative;
+  color: #E8FFFB;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+nav a{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.875; 
+  color: #E8FFFB;
+}
+
+nav a:hover{
+  /*color: rgba(0, 0, 0, 0.6);*/
+  color:#E8FFFB;
+}
+
+nav a::before{
+  content: '';
+  color: #E8FFFB;
+  display: block;
+  height: 0.313rem;
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms; 
+}
+
+nav a:hover::before{
+  width: 100%;
+  color: #E8FFFB;
+}
+
+.intro-desc h1{
+  display: inline-block;
+  color: white;
+}
+
+.intro-desc h2{
+  display: block;
+  text-align: left;
+}
+
+.quake-pic{
+  float: right;
+  margin-right: 10%;
+  height: 50%;
+  width: 50%;
+}
+
+#command-list{
+  background-color: #F1F5FC;
+  margin: 3%;
+  padding: 3%;
+  border-radius: 10%;
+} 
+
+.left > caption{
+  float: left;
+}
+
+.left > pre{
+  float: left;
+  width: 35%;
+}
+
+.left > p{
+  float: left;
+  width: 40%;
+}
+
+.right > img{
+  width: 40%;
+  height: auto;
+  float: right;
+  min-width: 400px;
+  margin-right: 5%;
+}
+
+#works{
+  clear: both;
+}
+
+.clear-this{
+  clear: both;
+}
+
+.tech {
+  clear: right;
+  float: center;
+  margin-left: 40%;
+  margin-right: 40%;
+  background-color: red;
+}
+
+.creation {
+clear: right;
+width: auto;
+}
+
+.python {
+  height: 19%;
+  width: 19%;
+  margin-left: 10%;
+  margin-right: 1%;
+  margin-bottom: 3%;
+  /* margin-left: 18%; */
+  /* margin-right: 3%; */
+}
+
+.replit {
+  height: 10%;
+  width: 10%;
+  margin-right: 3%;
+  /* margin-right: 3%; */
+  margin-bottom: 2%; 
+}
+
+.github {
+  height: 17%;
+  width: 17%;
+  margin-right: 3%;
+  margin-bottom: 4%; 
+}
+
+.discord {
+  height: 35%;
+  width: 21%;
+  margin-right: 6%;
+  margin-bottom: 4%; 
+}
+
+#techImg > img {
+ display: inline-block;
+}
+
+#about {
+  clear:right;
+}
+
+.titles {
+  font-size: 275%;
+}
+
+#slogan {
+  color:#F1F5FC;
+  margin-left: 3%;
+}
+
+#about{
+  background-color: #EBF0FF;
+}
