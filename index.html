@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>QuakeBot | A Discord Bot</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  
+  <div class="introduction">
+    <header>
+      <div class="intro-container">
+        <img class="image-logo" src = "Images/globe.png">
+        <nav>
+          <ul id ="straight">
+            <li><a href="#Shaking-the-game">Shaking up the Game</a></li>
+            <li><a href="#how-it-works">How it works</a></li>
+            <li><a href="#about">Technologies used</a></li>
+            <li><a href="#about">Created By</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="intro-desc">
+      <h1 class="image-logo">Quake Bot</h1>
+      <!-- <img class="quake-pic" src="Images/bot-talk.png" alt="An interaction between the bot and human"> -->
+      <h2 id="slogan">Real-time Earthquake Data on Your Discord Server</h2>
+      <button class="github-repo" type="button">GitHub Repo</button>
+      <button class="video-link" type="button">View Demo</button>
+    </div>
+  </div>
+
+  <hr>
+
+  <section id = "Shaking-the-game">
+    <h2 class = "titles">Shaking up the Game</h2>
+    <p><strong>Quake Bot</strong> allows users to retrieve enthralling earthquake data in an instant.</p>
+
+    <div class="left">
+      <pre id = "command-list"> 
+        <strong>Available Commands</strong>
+               
+        <code>$help</code> - This will list out all of the
+        commands and their uses
+
+        <code>$earthquake</code> - This will display the
+        most recent quake
+
+        <code>$dailysummary</code> - This will display a
+        summary of all of the earthquakes
+        that took place on the current day
+        
+        <code>$strongestquake</code> - This will display the
+        strongest earthquake of the day
+      </pre>
+    </div>
+    <div class = "right">
+      <img src ="Images/commands.png">
+    </div>
+  </section>
+
+  <section id = "how-it-works">
+      <h2 class = "titles" id = "works">How it Works</h2>
+    
+      <h3 class="clear-this"><strong>1.</strong> Volcano Discovery</h3>
+
+      <div class = "left">
+        <p class = "left">Quake Bot retrieves real-time earthquake statistics from <a href = "https://www.volcanodiscovery.com/" target = "_blank">VolcanoDiscovery.com</a>. <br/><br/>The site provides data on the most recent earthquakes worldwide. Quake Bot scrapes this data and presents it in an easy-to-digest format for its Discord users. </p>
+      </div>
+      
+      <div class = "right">
+        <img src = "Images/volcano.png">
+      </div>
+  </div>
+    <h3 class = "clear-this"><strong>2.</strong> Beautiful Soup 4</h3>
+
+    <div class="left">
+      <p>To scrape the data, we have used Python's BeautifulSoup4 library. This library allows us to search a site's HTML code for specific tags and get the data that is present in them. After inspecting Volcano Discovery's source code, we were able to narrow down on th elocation of the infromation we need to present and extract it.</p>
+    </div>
+    <div class = "right">
+      <img src = "Images/beautifulsoup4.png">
+    </div>
+
+    <h3 class = "clear-this"><strong>3.</strong> Discord API</h3>
+
+    <div class="left">
+      <p>Using Discord's <i>Developer Portal</i> we are able to create a bot that ouputs this information to you in Discord! This is done by importing Discord's discord Python library, allowing us to use functions that create the bot, run the bot, and respond to certain events!</p>
+    </div>
+    <div class = "right">
+      <img src = "Images/developers.png">
+    </div>
+  </section>
+
+  <section class = "creation">
+    <h2 id = "tech" class = "titles">Technologies Used</h2>
+    <div id = "techImg">
+    <a target = "_blank" href="https://www.python.org/" ><img class = "python" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/486px-Python_logo_and_wordmark.svg.png"></a>
+    
+    <a target = "_blank" href="https://replit.com/~" ><img class = "replit" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Repl.it_logo.svg/1200px-Repl.it_logo.svg.png"></a>
+
+    <a target = "_blank" href="https://github.com/MaazMakrod/Discord-Earthquake-Bot"><img class = "github" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/238px-GitHub_logo_2013.svg.png"></a>
+    
+    <a target = "_blank" href="https://discord.com/" ><img class = "discord" src = "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/Discord_logo.svg/300px-Discord_logo.svg.png"></a>
+
+    </div>    
+
+  </section>
+  
+  <section id = "about">
+    <br/>
+    <h2 class = "titles" id = "AboutUs">Created By</h2>
+
+    <pre>
+      Maaz Makrod                 maaz.makrod@gmail.com             github.com/MaazMakrod                     linkedin.com/in/maaz-makrod
+
+      Saad Mukhtar              saadmukhtar01@gmail.com            github.com/SaadMukhtar                 linkedin.com/in/saadmukhtar416/
+      
+      Azizul Chowdhury    azizul.chowdhury@uwaterloo.ca               github.com/azizul-c                        linkedin.com/in/azizul-c
+
+      Zain Altaf                    zaltaf@uwaterloo.ca            github.com/zain-altaf           linkedin.com/in/zain-ul-abideen-altaf/
+    </pre>
+    
+  </section>
+
+  <section id = "Demo">
+
+  </section>
+
+
+  <script src="script.js"></script>
+
+  </body>
+</html>
