@@ -1,10 +1,10 @@
-# Earthquake-Bot-Site
+# Quake Bot Website
 
-This is a desktop site that was created as part of the University of Waterloo EngHack hackathon, and can be viewed [here](https://earthquake-bot.maazmakrod.repl.co/). This site was created to market a project that we had created earlier in the Hackathon, a Discord Bot known as Quake Bot. Further information can be viewed [here](https://github.com/MaazMakrod/Discord-Earthquake-Bot).
+This is a website that was created as part of the University of Waterloo EngHack 2021 hackathon, and can be viewed [here](https://earthquake-bot.maazmakrod.repl.co/). This site was created to market a project that we had created earlier in the Hackathon: a Discord Bot known as Quake Bot. The repository for the bot can be viewed [here](https://github.com/MaazMakrod/Discord-Earthquake-Bot).
 
 ## Designing the Site
 
-To design the site, we used Figma which allowed us to create a wireframe. This can be viewed [here](https://www.figma.com/proto/86AVEikWSaby4ix96R1hBW/QuakeBot-Website?page-id=0%3A1&node-id=1%3A2&viewport=584%2C-58%2C0.7111635804176331&scaling=min-zoom). This site is meant to market our bot and is what we would have liked our site to look like given that we had more time to work on the project. Nonetheless, we had a lot of fun!
+To design the site, we used Figma which allowed us to create a wireframe. This can be viewed [here](https://www.figma.com/proto/86AVEikWSaby4ix96R1hBW/QuakeBot-Website?page-id=0%3A1&node-id=1%3A2&viewport=584%2C-58%2C0.7111635804176331&scaling=min-zoom). This site is meant to market our bot and is what we would have liked our site to look like if we had more time to work on the project. Nonetheless, we had a lot of fun!
 
 ## Wireframe Demo
 <p>&nbsp;</p>
