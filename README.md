@@ -1,6 +1,6 @@
 # Quake Bot Website
 
-This is a website that was created as part of the University of Waterloo EngHack 2021 hackathon, and can be viewed [here](https://earthquake-bot.maazmakrod.repl.co/). This site was created to market a project that we had created earlier in the Hackathon: a Discord Bot known as Quake Bot. The repository for the bot can be viewed [here](https://github.com/MaazMakrod/Discord-Earthquake-Bot).
+This is a website that was created as part of the University of Waterloo's EngHack 2021 hackathon, and can be viewed [here](https://earthquake-bot.maazmakrod.repl.co/). This site was created to market a project that we had created earlier in the Hackathon: a Discord Bot known as Quake Bot. The repository for the bot can be viewed [here](https://github.com/MaazMakrod/Discord-Earthquake-Bot).
 
 ## Designing the Site
 
