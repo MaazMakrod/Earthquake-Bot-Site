@@ -7,6 +7,7 @@ This is a desktop site that was created as part of the University of Waterloo En
 To design the site, we used Figma which allowed us to create a wireframe. This can be viewed [here](https://www.figma.com/proto/86AVEikWSaby4ix96R1hBW/QuakeBot-Website?page-id=0%3A1&node-id=1%3A2&viewport=584%2C-58%2C0.7111635804176331&scaling=min-zoom). This site is meant to market our bot and is what we would have liked our site to look like given that we had more time to work on the project. Nonetheless, we had a lot of fun!
 
 ## Wireframe Demo
+<p>&nbsp;</p>
 
 ![image](https://user-images.githubusercontent.com/67477587/123551310-36f6fd80-d73f-11eb-9019-2ac9065236b0.png)
 ![image](https://user-images.githubusercontent.com/67477587/123551312-3a8a8480-d73f-11eb-8f18-9101e679d57f.png)
@@ -16,7 +17,11 @@ To design the site, we used Figma which allowed us to create a wireframe. This c
 ![image](https://user-images.githubusercontent.com/67477587/123551335-4aa26400-d73f-11eb-8ff7-d3bc71f7616f.png)
 ![image](https://user-images.githubusercontent.com/67477587/123551341-4fffae80-d73f-11eb-9290-c5b3120f3fd5.png)
 
+<p>&nbsp;</p>
+
 ## Site Demo
+
+<p>&nbsp;</p>
 
 ![image](https://user-images.githubusercontent.com/67477587/123551425-b258af00-d73f-11eb-9cc2-02efa544d164.png)
 ![image](https://user-images.githubusercontent.com/67477587/123551427-b5ec3600-d73f-11eb-8dfd-a98cc897cfc2.png)
